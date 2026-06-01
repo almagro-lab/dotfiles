@@ -1,0 +1,13 @@
+# General config                   
+font-family = "JetBrains Mono Regular" 
+font-size = 14                   
+background-opacity = 0.95
+shell-integration-features = no-cursor 
+cursor-style = block
+
+# Behavior config
+scrollback-limit = 10000                      
+
+# More config
+shell-integration = fish   
+#initial-command = /opt/homebrew/bin/neofetch
