@@ -1,4 +1,9 @@
 if status is-interactive
+    # Iniciar tmux automáticamente en Ghostty (sin anidar dentro de otro tmux)
+    if test "$TERM_PROGRAM" = ghostty; and not set -q TMUX; and test -x /opt/homebrew/bin/tmux
+        exec /opt/homebrew/bin/tmux new-session -A -s Config
+    end
+
     # Commands to run in interactive sessions can go here
     /opt/homebrew/bin/neofetch
 end

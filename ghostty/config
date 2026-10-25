@@ -1,6 +1,6 @@
-# General config
-font-family = "JetBrains Mono Regular"
-font-size = 13
+# General config                   
+font-family = "JetBrains Mono Regular" 
+font-size = 13            
 background-opacity = 1
 background = #050B14
 foreground = #F5F7FA
@@ -28,12 +28,17 @@ palette = 12=#0FC5ED
 palette = 13=#9C8CFF
 palette = 14=#3FE0D0
 palette = 15=#FFFFFF
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor 
 cursor-style = block
 
 # Behavior config√
-scrollback-limit = 10000
+scrollback-limit = 10000                      
 
 # More config
-shell-integration = fish
+shell-integration = fish   
 keybind = shift+enter=text:\x1b\r
+
+# Pestañas -> ventanas de tmux (prefijo Ctrl-a = \x01)
+keybind = cmd+t=text:\x01c
+keybind = cmd+shift+left_bracket=text:\x01p
+keybind = cmd+shift+right_bracket=text:\x01n
