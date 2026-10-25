@@ -1,0 +1,39 @@
+# General config                   
+font-family = "JetBrains Mono Regular" 
+font-size = 13            
+background-opacity = 1
+background = #050B14
+foreground = #F5F7FA
+
+cursor-color = #FFFFFF
+cursor-text = #050B14
+
+selection-background = #12305A
+selection-foreground = #F5F7FA
+
+palette = 0=#214969
+palette = 1=#FF6B6B
+palette = 2=#47FF9C
+palette = 3=#FFE073
+palette = 4=#0FC5ED
+palette = 5=#9C8CFF
+palette = 6=#3FE0D0
+palette = 7=#F5F7FA
+
+palette = 8=#3A6A94
+palette = 9=#FF6B6B
+palette = 10=#47FF9C
+palette = 11=#FFE073
+palette = 12=#0FC5ED
+palette = 13=#9C8CFF
+palette = 14=#3FE0D0
+palette = 15=#FFFFFF
+shell-integration-features = no-cursor 
+cursor-style = block
+
+# Behavior config√
+scrollback-limit = 10000                      
+
+# More config
+shell-integration = fish   
+keybind = shift+enter=text:\x1b\r
